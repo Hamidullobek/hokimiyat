@@ -34,7 +34,6 @@ function About() {
             </div>
             <div className="work-activity">
                 <div className="container">
-                    
                     <div className="photo-of-governor">
                         <img src={Qorinboy} alt="" className='pg'/>
                     </div>
