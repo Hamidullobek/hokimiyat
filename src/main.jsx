@@ -1,14 +1,9 @@
 import React from 'react';
-import Navbar from './components/apps/navbar';
-import { Switch } from 'react-router-dom';
-
+import Header2 from "./components2/header2.jsx"
 function Main() {
     return (
-        <>
-            <Navbar/>
-            <Switch>
-                
-            </Switch>
+        <>  
+            <Header2/>
         </>
     );
 }
