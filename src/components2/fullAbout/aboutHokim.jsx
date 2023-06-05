@@ -1,5 +1,5 @@
 import React from 'react';
-import "./about.scss";
+import "./aboutHokim.scss";
 function About() {
     return ( 
         <div className="full-about-place">
