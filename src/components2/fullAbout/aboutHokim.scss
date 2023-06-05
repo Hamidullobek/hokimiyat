@@ -1,48 +1,104 @@
 @import "../../style.scss";
-.full-about-place{
-    padding-top: 100px;
+
+.full-about-hokim {
     width: 100%;
+    height: 100%;
     display: flex;
-    align-items: center;
+    align-content: center;
     justify-content: center;
     flex-direction: column;
-    .about{
+
+    .about {
         width: 100%;
+        height: 100%;
         display: flex;
-        align-items: center;
+        align-content: center;
         justify-content: center;
-        padding-bottom: 40px;
-        .container{
+
+        .container {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            .left-page{
-                width: 48%;
-                h1{
+            padding-top: 7%;
+
+            .left-page {
+                width: 49%;
+                // padding-left: 10%;
+
+                h1 {
                     width: 100%;
-                    font-family: Roboto;
-                    font-size: 45px;
-                    letter-spacing: 2px;
+                    font-size: 50px;
+                    font-family: sans-serif;
                     color: #38424DFF;
                 }
             }
-            .border{
+
+            .vall {
+                width: .5%;
                 height: 200px;
                 background: #DE3660FF;
-                width: 5px;
             }
-            .right-page{
-                width: 50%;
-                p{
-                    color: #999;
+
+            .right-page {
+                width: 49%;
+                padding-left: 20px;
+
+                p {
+                    font-size: 18px;
                     font-family: sans-serif;
-                    font-size: 20px;
-                }   
-                button{
-                    width: 200px;
-                    height: 50px;
+                    color: #999;
+                }
+
+                button {
+                    border: none;
+                    background: #DE3660FF;
+                    color: white;
+                    width: 220px;
+                    height: 60px;
+                    border-radius: 5px;
+                    margin-top: 20px;
+                    font-family: sans-serif;
+                    font-size: 18px;
+
+                    &:hover {
+                        background: white;
+                        color: #DE3660FF;
+                        box-shadow: 0px 2px 7px #999;
+                    }
                 }
             }
         }
     }
+    .work-activity{
+        padding-top: 150px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container{
+            width: 60%;
+            
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .photo-of-governor{
+                width: 45%;
+                img{
+                    width: 500px;
+                }
+            }
+            .about{
+                width: 45%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                p{
+                    color: #999;
+                }
+            }
+        }
+    }
+    
 }
